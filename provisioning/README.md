@@ -1,11 +1,5 @@
-# SaaS-MVP-Engineering
-
-Welcome in this online course on SaaS MVP Engineering.
-
-
-# Assignment 4
-Example Meteor Deploy Script
-============================
+example_meteor_deploy
+=====================
 
 __This project shows how to deploy a meteor app to a Linux environment.__
 
@@ -25,8 +19,6 @@ sh
 git clone https://github.com/Nebucom/SaaS-MVP-Engineering.git
 cd SaaS-MVP-Engineering
 git checkout 
-vim provisioning/roles/deploy_twitter_dashboard/vars/main.yml
- -- Update with your settings
 vagrant up
 
 ```
